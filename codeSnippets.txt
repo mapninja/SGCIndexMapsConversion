@@ -1,0 +1,3 @@
+#  First conversion
+
+ogr2ogr stanford-ts545zc6250-geojson2.geojson stanford-ts545zc6250-geojson.shp -sql "SELECT sheet_num AS label, Title AS title, CKey AS recordIdentifier, Purl AS websiteUrl from \"stanford-ts545zc6250-geojson\""
